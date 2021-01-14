@@ -1,0 +1,50 @@
+body {
+     background: url('images/banner1.jpg') fixed;
+    background-size: cover;
+}
+
+*[role="form"] {
+    max-width: 500px;
+    padding: 50px 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #456789;
+    max-height: 400px;
+    color: #fff;
+}
+
+*[role="form"] h2 { 
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.btn-register{
+    width:200px;
+    margin-top: 40px;
+    margin-left: 10px;
+	padding:8px 0;
+	outline:none !important;
+	border:2px solid #fff;
+	border-radius:50px;
+	background: #123456;
+	color:#fff;
+	text-align: center;
+    transition: 0.5s ease;
+}
+.btn-register:hover{
+    background-color: #fff;
+    color:#000;
+    border-radius: 50px;
+    border: 2px solid #000;
+}
+.container{
+    margin-top: 100px;
+
+}

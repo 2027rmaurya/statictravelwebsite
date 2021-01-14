@@ -1,0 +1,119 @@
+﻿
+*{
+	padding: 0;
+    margin: 0;
+}
+
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3%;
+    background-color: #456789;
+    height: 550px;
+    color: #fff;
+}
+
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]{
+    border-radius: 50px;
+}
+
+*[role="form"] h2 { 
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.form-body{
+	 background: url('images/banner1.jpg') fixed;
+     background-size: cover;
+     height: 100%;
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+
+.btn-register{
+	width:200px;
+	margin-left: : px;
+    margin-top: 10px;
+	padding:8px 0;
+	outline:none !important;
+	border:2px solid #fff;
+	border-radius:50px;
+	background: #333888;
+	color:#fff;
+	text-align: center;
+    transition: 0.5s ease;
+}
+.btn-register:hover{
+    background-color: #123456;
+    color:#fff;
+     border-radius: 50px;
+    border: 2px solid #000;
+}
+/*footer*/
+.footer {
+    padding:100px 20px!15px;
+    margin-bottom: -100px;
+    color: #000;
+}
+
+.footer-logo{
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.footer h4{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer p a:link{
+    color: #000;
+}
+
+.footer p a:visited{
+    color: #000;
+}
+
+.footer p a:hover{
+    color: #123456;
+    text-decoration: underline;
+}
+
+.footer .row .fa{
+    color: #000;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #000;
+}
+
+.fa-heart{
+    margin: 0 5px;
+    color: #f44336;
+}
+
+.footer .copyright{
+    text-align: center;
+
+}

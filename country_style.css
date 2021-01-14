@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.images{
+height:1000px;
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/banner1.jpg);	
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+padding-top:30px;
+text-align:center;
+color:#fff;
+
+}
+
+div h1{
+	margin: 30px;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.image{
+width:204px;
+border:2px solid #777;
+}
+
+.image h3{
+	padding-top: 10px;
+}
+
+.image:hover{
+border:2px solid #ccc;
+}
+
+.image-btn{
+	width:100px;
+	padding:3px 0;
+	outline:none !important;
+	border:2px solid #fff;
+	border-radius:50px;
+	background: transparent;
+	color:#fff;
+	float:right;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+.row{
+	margin-top: 20px;
+}
+
+/**/.footer {
+	padding:100px 20px!15px;
+	
+	color: #000;
+	margin-bottom: 0px;
+}
+
+.footer-logo{
+	width: 150px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+}
+
+.footer h4{
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.footer p{
+	font-size: 12px;
+	text-align: justify;
+	padding-right: 35px;
+}
+
+.footer p a:link{
+	color: #000;
+}
+
+.footer p a:visited{
+	color: #000;
+}
+
+.footer p a:hover{
+	color: #123456;
+	text-decoration: underline;
+}
+
+.footer .row .fa{
+	color: #000;
+	padding-right: 20px;
+	font-size: 15px;
+}
+
+.footer hr{
+	margin-top: 10px;
+	background: #000;
+}
+
+.fa-heart{
+	margin: 0 5px;
+	color: #f44336;
+}
+
+.footer .copyright{
+	text-align: center;
+
+}
